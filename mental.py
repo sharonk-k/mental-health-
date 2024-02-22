@@ -76,7 +76,7 @@ def send_msg(msg, wa_id):
             "body": msg
         }
     }
-    response = requests.post('https://graph.facebook.com/v13.0/PhoneID/messages', headers=headers,
+    response = requests.post('https://graph.facebook.com/v13.0/107082732389411/messages', headers=headers,
                              json=json_data)
     print(response.text)
 
