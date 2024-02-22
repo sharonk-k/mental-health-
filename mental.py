@@ -4,7 +4,7 @@ import requests
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'koech'
 
-facebook_bearer_token = ''
+facebook_bearer_token = 'EAAI7KQfphY0BOZC4T0cy9eyv2Wa1ADCO5UX2gqypsNJYzumX9yQEreLVqxCCMhWBF2u3u80EbBDBz4flXZA1xWyIZBBcZBJPZB1BtF9y9dJdOfoOA36YzCwkRDBon9UqZBqB4ZCEW3ytpLtLADdRyGaEJuNlNQNBs0ZBrZBc8hZAQkrFnsDWtCZBvrua0oNzFBYLKCMtTzNwmHl8gHjzXhG2KioEFi3QNO9DGpa5ngZD'
 
 data = {
     "intents": [
